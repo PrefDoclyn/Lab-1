@@ -10,6 +10,7 @@ my-lab1/
 ─ src/ # Kod źródłowy
 ─ tests/ # Testy jednostkowe
 ─ README.md # Dokumentacja ogólna
-
-## Files included
--index.html
+- CONTRIBUTING.md # Dokumentacja do dołączenia do projekta
+- index.html # web file
+- .gitignore # ignorowanie plikuw
+- LICENSE # standart
