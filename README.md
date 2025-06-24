@@ -10,3 +10,6 @@ my-lab1/
 ─ src/ # Kod źródłowy
 ─ tests/ # Testy jednostkowe
 ─ README.md # Dokumentacja ogólna
+
+## Files included
+-index.html
