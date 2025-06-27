@@ -1,49 +1,75 @@
-# Projekt my-lab1
+# Projekt: my-lab1
 
-## Opis projektu
-Projekt powstał w celu nauki pracy z systemem kontroli wersji Git, platformą GitHub oraz podstaw HTML. W ramach kolejnych laboratoriów dodawane były praktyki wersjonowania, testowania i automatycznego wdrażania (CI/CD).
+Cześć! Ten projekt to moje ćwiczenie z laboratoriów na studiach. Uczyłem się tu podstaw pracy z GitHubem, wersjonowaniem, testowaniem i wdrażaniem prostej strony.
+
+---
 
 ## Laboratoria
 
 ### Laboratorium 1 – Struktura projektu
-- Utworzono repozytorium z podstawową strukturą plików (`index.html`, `README.md`, `LICENSE`)
-- Zorganizowano katalogi: `src/`, `docs/`, `tests/`
-- Dodano pliki: `.gitignore`, `CONTRIBUTING.md`
+- Stworzyłem repozytorium z plikiem `index.html`
+- Dodałem pliki `README.md`, `LICENSE`, `.gitignore`
+- Utworzyłem foldery: `src/`, `docs/`, `tests/`
+- Zacząłem dokumentację w `README.md`
 
-### Laboratorium 2 – Wersjonowanie i współpraca
-- Wykorzystano gałęzie (`feature/header`, `feature/contact-form`) oraz Pull Requesty
-- Rozwiązano konflikt przy łączeniu gałęzi (`index.html`)
-- Zastosowano **Semantic Versioning** z tagami:
-  - `v1.0.1` – poprawka literówki
-  - `v1.1.0` – dodanie strony `about.html`
-  - `v2.0.0` – przebudowa struktury HTML
-  - `v2.1.0` – dodanie formularza kontaktowego i testów
-- Prowadzony plik [`CHANGELOG.md`](CHANGELOG.md)
+### Laboratorium 2 – Gałęzie, wersjonowanie i testy
+- Pracowałem na oddzielnych gałęziach (`feature/header`, `feature/contact-form`)
+- Dodałem Pull Requesty i rozwiązywałem konflikty
+- Używałem Semantic Versioning (`v1.0.1`, `v1.1.0`, `v2.0.0`, `v2.1.0`)
+- Wprowadziłem plik `CHANGELOG.md`
+- Napisałem testy w pliku `test.js` (funkcja `validateForm()`)
 
-### Laboratorium 3 – CI/CD i wdrożenie _(w przygotowaniu)_
-- Testy jednostkowe w pliku `test.js`
-- Planowane uruchomienie GitHub Actions do automatycznych testów i wdrażania
+### Laboratorium 3 – CI/CD i wdrożenie
+- Dodałem plik `.github/workflows/ci.yml`, żeby uruchamiał testy przy pushu
+- Testy działają przez GitHub Actions (widać we wstążce "Actions")
+- Wdrożyłem stronę przez GitHub Pages
 
 ---
 
-## Uruchomienie projektu
+## Deployment
 
-Aby uruchomić stronę lokalnie:
-# Otwórz plik index.html w przeglądarce
+Moja strona działa tutaj:  
+[https://prefdoclyn.github.io/Lab-1/](https://prefdoclyn.github.io/Lab-1/)
 
-## Struktura katalogów
-my-lab1/
+---
 
-- docs/ 
-- src/ 
-- tests/ 
-- index.html
+## Jak uruchomić lokalnie
+
+1. Pobierz repozytorium (zielony przycisk „Code” → Download ZIP albo `git clone`)
+2. Otwórz plik `index.html` w przeglądarce
+3. Gotowe 
+
+---
+
+## Struktura projektu
+my-lab1/ 
+
+- index.html 
 - about.html
-- contact.html
-- script.js
-- test.js
-- README.md
-- CHANGELOG.md
-- LICENSE
-- CONTRIBUTING.md
-- .gitignore
+- contact.html 
+- script.js 
+- test.js 
+- README.md 
+- CHANGELOG.md 
+- LICENSE 
+- CONTRIBUTING.md 
+- .gitignore 
+- /src 
+- /docs 
+- /tests
+
+
+---
+
+## Technologie i narzędzia
+
+- HTML + CSS + JavaScript (formularz kontaktowy i walidacja)
+- Git i GitHub (wersjonowanie, tagi, gałęzie)
+- GitHub Actions (CI – testy automatyczne)
+- GitHub Pages (CD – automatyczne wdrożenie strony)
+
+## Autor
+
+Projekt stworzony w ramach laboratoriów  
+**Nikita Mikhalov** – student uczący się Gita, CI/CD i frontendu  
+2025
