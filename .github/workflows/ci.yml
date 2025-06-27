@@ -20,4 +20,4 @@ jobs:
           node-version: '20'
 
       - name: Run unit tests (test.js)
-        run: node test.js
+        run: node tests/test.js
